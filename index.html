@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="asset/css/style.css" />
+    <!-- Add your CSS file -->
+  </head>
+  <body>
+    <header class="header">
+      <h1>Welcome Animal Company</h1>
+    </header>
+
+    <nav class="nav">
+      <ul>
+        <li class="nav-item"><a href="#con">Contact</a></li>
+        <li class="nav-item"><a href="#about">About</a></li>
+        <li class="nav-item"><a href="#company">company</a></li>
+      </ul>
+    </nav>
+
+    <main class="content">
+      <img src="asset/image/lion2.jpeg" alt="anime photo" />
+
+      
+        <section id="con" class="con">
+          <h2>Contact</h2>
+          <form id="contactForm" action="submit_contact.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        </section>
+           <section id="about" class="about">
+          <h2>About</h2>
+          <p>The Wonders of the Animal Kingdom</p>
+          </form>
+        </section>
+      </main>
+      <foot id ="company" class="company">
+        <h3>Our company</h3>
+        <p>Our mission is to promote the well-being, conservation, and responsible management of animals of all species. We strive to create a world where animals are treated with respect, kindness, and receive the care they deserve.</p>
+      </foot>
+
+  </body>
+</html>
